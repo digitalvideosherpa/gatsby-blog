@@ -10,7 +10,6 @@ import Menu from "../Menu";
 import avatar from "../../images/jpg/dmc.jpg";
 import SocialMediaIcons from "../SocialMediaIcons/SocialMediaIcons";
 
-
 class Header extends React.Component {
   state = {
     fixed: false
@@ -35,27 +34,28 @@ class Header extends React.Component {
     const { pages, path, theme } = this.props;
     const { fixed } = this.state;
 
-    const mainHeaderStyle={
-      width:"240px", 
-    }
+    const mainHeaderStyle = {
+      width: "240px"
+    };
     return (
       <React.Fragment>
         <header className={`header ${this.getHeaderSize()}`}>
           <Link to="/" className="logoType">
             <div className="logo">
-            <img src={avatar} alt={config.siteTitle} />
+              <img src={avatar} alt={config.siteTitle} />
             </div>
-            </Link>
-            <div className="mainheader" style={mainHeaderStyle}>
+          </Link>
+          <div className="mainheader" style={mainHeaderStyle}>
             <SocialMediaIcons
-                urls={[
-                  "https://www.linkedin.com/in/damian-mcnamara-7771958/",
-                  "https://github.com/digitalvideosherpa",
-                  "https://twitter.com/damian_mcnamara",
-                  "mailto:mail@thedmctech.com"
-                ]}
-                color="silver"/>
-                </div>
+              urls={[
+                "https://www.linkedin.com/in/damian-mcnamara-7771958/",
+                "https://github.com/digitalvideosherpa",
+                "https://twitter.com/damian_mcnamara",
+                "mailto:mail@thedmctech.com"
+              ]}
+              color="silver"
+            />
+          </div>
           <FontLoadedContext.Consumer>
             {loaded => (
               <ScreenWidthContext.Consumer>
