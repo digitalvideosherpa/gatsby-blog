@@ -1,15 +1,15 @@
 module.exports = {
   siteTitle: "DMC", // <title>
-  shortSiteTitle: "Digital Media and Cloud Technology", // <title> ending for posts and pages
+  shortSiteTitle: "Digital, Media and Cloud Tech", // <title> ending for posts and pages
   siteDescription: "DMC is a Tech Blog",
-  siteUrl: "https://thedmctech.com",
+  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
   authorName: "Damian McNamara",
-  authorTwitterAccount: "damian_mcnamara",
+  authorTwitterAccount: "damianmc",
 
   /* info */
   headerTitle: "Tech Blog",
@@ -17,7 +17,7 @@ module.exports = {
 
   /* manifest.json */
   manifestName: "DMC - Tech Blog",
-  manifestShortName: "DMCBlog", // max 12 characters
+  manifestShortName: "HeroBlog", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -33,7 +33,7 @@ module.exports = {
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/digitalvideosherpa" },
-    { name: "twitter", url: "https://twitter.com/damian_mcnamara" },
+    { name: "twitter", url: "https://twitter.com/damianmcnamara" },
     { name: "facebook", url: "http://facebook.com/" }
   ]
 };

@@ -47,6 +47,7 @@ class Header extends React.Component {
           </Link>
           <div className="mainheader" style={mainHeaderStyle}>
             <SocialMediaIcons
+<<<<<<< HEAD
               urls={[
                 "https://www.linkedin.com/in/damian-mcnamara-7771958/",
                 "https://github.com/digitalvideosherpa",
@@ -56,6 +57,16 @@ class Header extends React.Component {
               color="silver"
             />
           </div>
+=======
+                urls={[
+                  "https://www.linkedin.com/in/damian-mcnamara-7771958/",
+                  "https://github.com/digitalvideosherpa",
+                  "https://twitter.com/damian_mcnamara",
+                  "mailto:damian@dmctech.net.au"
+                ]}
+                color="silver"/>
+                </div>
+>>>>>>> parent of a5a62bb... update graphics
           <FontLoadedContext.Consumer>
             {loaded => (
               <ScreenWidthContext.Consumer>
