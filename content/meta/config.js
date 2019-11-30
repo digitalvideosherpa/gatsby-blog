@@ -2,14 +2,14 @@ module.exports = {
   siteTitle: "DMC", // <title>
   shortSiteTitle: "Digital, Media and Cloud Tech", // <title> ending for posts and pages
   siteDescription: "DMC is a Tech Blog",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteUrl: "https://thedmctech.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
   authorName: "Damian McNamara",
-  authorTwitterAccount: "damianmc",
+  authorTwitterAccount: "damian_mcnamara",
 
   /* info */
   headerTitle: "Tech Blog",
