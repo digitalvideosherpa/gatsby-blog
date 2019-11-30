@@ -10,6 +10,7 @@ import Menu from "../Menu";
 import avatar from "../../images/jpg/dmc.jpg";
 import SocialMediaIcons from "../SocialMediaIcons/SocialMediaIcons";
 
+
 class Header extends React.Component {
   state = {
     fixed: false
@@ -34,19 +35,20 @@ class Header extends React.Component {
     const { pages, path, theme } = this.props;
     const { fixed } = this.state;
 
-    const mainHeaderStyle = {
-      width: "240px"
-    };
+    const mainHeaderStyle={
+      width:"240px", 
+    }
     return (
       <React.Fragment>
         <header className={`header ${this.getHeaderSize()}`}>
           <Link to="/" className="logoType">
             <div className="logo">
-              <img src={avatar} alt={config.siteTitle} />
+            <img src={avatar} alt={config.siteTitle} />
             </div>
-          </Link>
-          <div className="mainheader" style={mainHeaderStyle}>
+            </Link>
+            <div className="mainheader" style={mainHeaderStyle}>
             <SocialMediaIcons
+<<<<<<< HEAD
 <<<<<<< HEAD
               urls={[
                 "https://www.linkedin.com/in/damian-mcnamara-7771958/",
@@ -58,15 +60,24 @@ class Header extends React.Component {
             />
           </div>
 =======
+=======
+>>>>>>> parent of 684889d... GA
                 urls={[
                   "https://www.linkedin.com/in/damian-mcnamara-7771958/",
                   "https://github.com/digitalvideosherpa",
                   "https://twitter.com/damian_mcnamara",
+<<<<<<< HEAD
                   "mailto:damian@dmctech.net.au"
                 ]}
                 color="silver"/>
                 </div>
 >>>>>>> parent of a5a62bb... update graphics
+=======
+                  "mailto:mail@thedmctech.com"
+                ]}
+                color="silver"/>
+                </div>
+>>>>>>> parent of 684889d... GA
           <FontLoadedContext.Consumer>
             {loaded => (
               <ScreenWidthContext.Consumer>
