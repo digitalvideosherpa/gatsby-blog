@@ -67,6 +67,7 @@ class Header extends React.Component {
                   "https://github.com/digitalvideosherpa",
                   "https://twitter.com/damian_mcnamara",
 <<<<<<< HEAD
+<<<<<<< HEAD
                   "mailto:damian@dmctech.net.au"
                 ]}
                 color="silver"/>
@@ -74,6 +75,9 @@ class Header extends React.Component {
 >>>>>>> parent of a5a62bb... update graphics
 =======
                   "mailto:mail@thedmctech.com"
+=======
+                  "mailto:damian@dmctech.net.au"
+>>>>>>> parent of a5a62bb... update graphics
                 ]}
                 color="silver"/>
                 </div>
